@@ -1,0 +1,58 @@
+*{
+
+    margin: 0;
+    padding: 0;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#form-container{
+
+background-color: rgb(0, 0, 0);
+height: 1700px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#form-container form{
+
+background-color: rgb(141, 118, 74);
+width:700px;
+padding: 60px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+input[type = "text"],
+input[type ="email"],
+input[type = "password"],
+section,
+
+textarea{
+
+padding: 10px;
+border: 1px;
+border-radius: 35;
+
+}
+input[type = "checkbox"],
+input[type = "radio"]{
+    margin-right: 5px;
+}
+button{
+
+padding: 10px;
+background-color:rgb(224, 55, 55);
+border: none;
+color: aliceblue;
+border-radius: 35;
+cursor: pointer;
+
+}
+button:hover{
+
+    background-color:rgb(105, 26, 26);
+
+}

@@ -1,0 +1,19 @@
+table{
+
+    border-collapse:separate;
+    width: 30px;
+    overflow: hidden;
+    box-shadow: black;
+}
+th,td{
+
+border: 1px solid #333;
+padding: 8px;
+text-align: left;
+
+}
+th{
+
+    background-color: darkslategray;
+    color: aliceblue;
+}

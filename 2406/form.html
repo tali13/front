@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<main>
+<section id="form-container">
+    <form action="#" method="post">
+        <h2>cadastro de usuario</h2>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email</label>
+       <input type="email" name="email" id="email" required> <br><br>
+
+       <label for="senha">Senha</label>
+       <input type="password" name="senha" id="senha"required> <br><br>
+
+        <label for="interesses">interesses</label>
+        <input type="checkbox" name="interesses" id="interesses" value="js">js 
+        <input type="checkbox" name="interesses" id="interesses" value="ts">ts 
+        <input type="checkbox" name="interesses" id="interesses" value="css">css 
+        <input type="checkbox" name="interesses" id="interesses" value="html">HTML 
+
+        <label>Sexo:</label>
+       <div> <input type="radio" name="Sexo" id="Sexo" value="Masculino">M</div>
+        <div><input type="radio" name="Sexo" id="Sexo" value="Femenino">F</div>
+       <div> <input type="radio" name="Sexo" id="Sexo" value="não-imformar">prefiro não dizer </div>
+
+        <label for="curso">curso desejado</label>
+        <select name="curso" id="curso">
+            <option value="js">js</option>
+            <option value="ts">ts</option>
+            <option value="css">css</option>
+            <option value="html">html</option>
+        </select>
+
+        <label for="Mensagem">Mensagem</label><br><br>
+        <textarea name="Mensagem" id="Mensagem" cols="50" rows="20"></textarea>
+        <button type="submit">enviar</button>
+
+    </form>
+</section>
+</main>
+
+
+
+</body>
+</html>
