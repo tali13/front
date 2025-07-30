@@ -1,0 +1,62 @@
+/*estilo padrão para as pafinas 
+variaveis CSS (CSS custom properties)*/
+
+:root{
+--cor--primaria: #f60;
+--cor--secundaria: rgb(34, 34, 33);
+--cor--fonte: rgb(255, 255, 255);
+--cor--funco: rgb(0, 0, 0);
+--cor-confirm:#1eff00;
+--cor-cancel:#ff0000;
+
+
+
+--font-base:'Arial', sans-serif;
+--small:12px;
+--regular:32px;
+--xLarge:100px;
+
+
+}
+body{
+
+font-family:var(--font-base);
+font-size: var(--regular);
+line:height 1.5px;
+color:var(--cor--fonte);
+background-color: var(--cor--funco);
+
+}
+
+header{
+    background-color: var(--cor--secundaria);
+    width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #ff5e00;
+  }
+  
+  a {
+    color: #ff5100;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  button {
+    cursor: pointer;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

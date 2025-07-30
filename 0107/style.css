@@ -1,0 +1,24 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+@font-face {
+    font-family:'ChillingNightime';
+    src: url(./ChillingNightime.ttf) format('truetype');
+
+
+}
+
+h1{
+
+
+    font: 64px 'ChillingNightime';
+
+
+}
+
+       

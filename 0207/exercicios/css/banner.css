@@ -1,0 +1,70 @@
+#banner{
+    height: 700px;
+    background-image: url(https://cdn-sites-images.46graus.com/files/photos/7744c76f/56e4b6cb-36d9-4aa4-a7c6-af6691e7711b/sem-titulo-1-1440x810.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content:start;
+    align-items:center;
+  
+    }
+    #binner{
+
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        align-items:center;
+      
+       padding: 469px;
+    }
+  
+    
+    #beneer{
+        height: 100px;
+       background-color: #0c010a;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+       
+            #banner-2{
+                height: 700px;
+               background-color:#0c010a;
+                display: flex;
+                justify-content:start;
+                align-items:center;
+              
+                }
+ 
+                .sec-carlos{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100vw;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                #sec-carlos2{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 5%;
+                    line-height:1.3 ;
+                }
+
+                #pai{
+                    background-image: url(https://img.freepik.com/fotos-premium/papel-de-parede-de-fundo-com-gradiente-abstrato_792836-375917.jpg?semt=ais_hybrid&w=740);
+                    display: flex;
+                    justify-content: center;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                }
+                

@@ -1,0 +1,34 @@
+@font-face {
+    font-family:'A';
+    src: url(./A.otf) format('opentype');
+ 
+
+
+}
+
+@font-face {
+    font-family: 'B';
+    src: url(./B.ttf) format('truetype');
+}
+h1{
+    color: rgb(218, 187, 145);
+     font: 46px 'A';
+
+    }
+    
+    h2{
+        color:   rgb(218, 187, 145);
+        font: 160px 'B';
+        
+    }
+    h3{
+        color:  rgb(218, 187, 145);
+        
+    }
+    h4{
+        color: rgb(247, 145, 86);
+        font-size: 33px;
+        
+    }
+
+    
