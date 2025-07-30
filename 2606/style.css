@@ -1,0 +1,45 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+header{
+width: 99.2vw;
+height: 10dvh;
+padding: 0px 15px 0px 0px;
+background-color: rgb(87, 52, 0);
+display: flex;
+justify-content:space-between;
+align-items: center;
+position: sticky;
+top: 0;
+flex-wrap: wrap;
+
+}
+header img{
+
+height: 80%;
+
+}
+a{
+    
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 90px;
+    
+
+}
+#container-banner{
+
+background-image:url(https://forbes.com.br/wp-content/uploads/2021/07/ForbesLife-JamieOliverKitchen-Restaurante-230721-GuiTeixeira.jpg);
+background-size: cover;
+background-attachment: fixed;
+height: 70vh;
+background-repeat: no-repeat;
+
+}
+
+
+

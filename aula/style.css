@@ -1,0 +1,39 @@
+body{
+
+background-color: black; /*cor fundo*/
+
+color: bisque;/*cor fontes*/
+
+font-family: Arial, Helvetica, sans-serif;/*fontes*/
+
+}
+p{
+font-size: 21px;/*tamanho fonte*/
+line-height: 1.2;
+
+
+}
+img{
+width: 200px;
+height: auto;
+
+
+
+
+}
+
+a{
+color: rgb(196, 156, 48);/*cor link*/
+
+text-decoration:none/*tira a borda do link*/
+
+
+
+}
+
+
+a:hover{
+color: coral;
+
+
+}
